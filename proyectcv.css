@@ -28,7 +28,7 @@ html{
 .contenedor-header header .logo a{
     font-family: "Rihteous";
     font-size: 36px;
-    color: aqua;
+    color:aqua;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -47,10 +47,10 @@ html{
     color: aqua;
 }
 .nav-responsive{
-    background-color: rgb(70, 153, 121);
+    background-color:#00a093;
     color: #fff;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 200px;
     cursor: pointer;
     display: none;
 }
@@ -208,9 +208,8 @@ html{
     width: 100%;
 }
 /* seccion skills */
-
 .skills{
-   background-color: rgb(17, 27, 31);
+   background-color: #0e1a1a;
    color: #fff;
    padding: 50px 20px;
 }
@@ -220,20 +219,21 @@ html{
 }
 .skills h2{
    font-size: 48px;
-   font-family: "Righteous";
+   font-family: 'Righteous';
    text-align: center;
-   padding: 20px 0
+   padding: 20px 0;
+
 }
 .skills .fila{
    display: flex;
 }
 .skills .fila .col{
    width: 50%;
-   padding: 0 20px;  
+   padding: 0 20px;
 }
 .skills .fila .col h3{
    font-size: 28px;
-   font-family: "Righteous";
+   font-family: 'Righteous';
    margin-bottom: 25px;
 }
 .skills .skill > span{
@@ -244,12 +244,12 @@ html{
 .skills .skill .barra-skill{
    height: 8px;
    width: 80%;
-   background-color: black;
+   background-color: #0b0d0f;
    position: relative;
    margin-bottom: 30px;
 }
 .skills .skill .progreso{
-   background-color: #0699b3;
+   background-color: #1CB698;
    position: absolute;
    top: 0;
    left: 0;
@@ -259,44 +259,47 @@ html{
    position: absolute;
    height: 40px;
    width: 40px;
-   background-color: #0699b3;
+   background-color: #1CB698;
    border-radius: 50px;
    line-height: 40px;
    text-align: center;
    top: -17px;
-   right: -15;
+   right: -15px;
    font-size: 14px;
 }
-/* estas clases se agregaran dinamicamente en JS */
+/* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
    width: 0%;
    animation: 2s javascript forwards;
 }
-@keyframes javascript{
+@keyframes javascript {
    0%{width: 0%;}
    100%{width: 30%;}
 }
-.skills .skill .HTML{
+
+.skills .skill .Hmtl{
    width: 0%;
-   animation: 2s HTML forwards;
+   animation: 2s Hmtl forwards;
 }
-@keyframes HTML{
+@keyframes Hmtl {
    0%{width: 0%;}
    100%{width: 45%;}
 }
-.skills .skill .CSS{
+
+.skills .skill .Css{
    width: 0%;
-   animation: 2s CSS forwards;
+   animation: 2s Css forwards;
 }
-@keyframes CSS{
+@keyframes Css {
    0%{width: 0%;}
    100%{width: 40%;}
 }
-.skills .skill .php{
+
+.skills .skill .Php{
    width: 0%;
-   animation: 2s php forwards;
+   animation: 2s Php forwards;
 }
-@keyframes php{
+@keyframes Php {
    0%{width: 0%;}
    100%{width: 25%;}
 }
@@ -304,34 +307,38 @@ html{
    width: 0%;
    animation: 2s comunicacion forwards;
 }
-@keyframes comunicacion{
+@keyframes comunicacion {
    0%{width: 0%;}
-   100%{width:80%;}
+   100%{width: 80%;}
 }
+
 .skills .skill .trabajo{
    width: 0%;
    animation: 2s trabajo forwards;
 }
-@keyframes trabajo{
+@keyframes trabajo {
    0%{width: 0%;}
    100%{width: 85%;}
 }
+
 .skills .skill .creatividad{
    width: 0%;
    animation: 2s creatividad forwards;
 }
-@keyframes creatividad{
+@keyframes creatividad {
    0%{width: 0%;}
    100%{width: 90%;}
 }
+
 .skills .skill .dedicacion{
    width: 0%;
    animation: 2s dedicacion forwards;
 }
-@keyframes dedicacion{
+@keyframes dedicacion {
    0%{width: 0%;}
    100%{width: 75%;}
-} 
+}
+
 /* seccion curriculum */
 .curriculum {
    background-color: rgb(22, 32, 37);
@@ -616,27 +623,28 @@ footer .arriba{
    font-size: 18px;
 }
 /* seccion responsive */
+
 @media screen and (max-width:980px){
    nav{
-      display: none;
+       display: none;
    }
    .nav-responsive{
-      display: block;
+       display: block;
    }
    nav.responsive{
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 75px;
-      background-color: #031214;
-      width: 180px;
+       display: block;
+       position: absolute;
+       right: 0;
+       top: 75px;
+       background-color: #013131;
+       width: 180px;
    }
    nav.responsive ul{
-      display: block !important;
+       display: block !important;
    }
    nav.responsive ul li{
-      border-bottom: 1px solid #fff;
-      padding: 10px 0;
+       border-bottom: 1px solid aqua;
+       padding: 10px 0;
    }
 }
 @media screen and (max-width:700px) {
