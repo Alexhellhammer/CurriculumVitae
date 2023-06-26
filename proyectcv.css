@@ -50,7 +50,7 @@ html{
     background-color:#00a093;
     color: #fff;
     padding: 5px 10px;
-    border-radius: 200px;
+    border-radius: 5px;
     cursor: pointer;
     display: none;
 }
