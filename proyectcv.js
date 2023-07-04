@@ -36,3 +36,13 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+function saveMessage(){
+    let name_Contact = document.getElementById("name")
+    let numeroTelefonico_Contact = document.getElementById("numero telefonico")
+    let direccionDeCorreo_Contact = document.getElementById("direccion de correo")
+    let tema_Contact = document.getElementById("tema")
+    let mensaje_Contact = document.getElementById("mensaje")
+    alert("creacion contacto")
+    return true;
+}
