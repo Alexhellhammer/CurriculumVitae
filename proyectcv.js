@@ -37,24 +37,4 @@ window.onscroll = function(){
     efectoHabilidades();
 } 
 
-function saveMessage(){
-    let name_Contact = document.getElementById("name");
-    let numeroTelefonico_Contact = document.getElementById("telefono");
-    let direccionDeCorreo_Contact = document.getElementById("e-mail");
-    let tema_Contact = document.getElementById("tema");
-    let mensaje_Contact = document.getElementById("mensaje");
-
-
-    let contacto = (
-        name: name_Contact.value,
-        numero telefonico: numeroTelefonico_Contact.value,
-        direccion de correo: direccionDeCorreo_Contact.value,
-        tema: tema_Contact.value,
-        mensaje: mensaje_Contact.value,
-    )
-
-    console.log(contacto)
-    
-    alert("creacion contacto")
-    return true;
-}
+// union front y back
