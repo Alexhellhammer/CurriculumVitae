@@ -31,9 +31,9 @@ function saveCont() {
             console.log(response);
     
             if (response.status == 201) {
-                alert("Creación Mensaje");
+                alert("Creación de Contacto");
             } else {
-                alert("Error en la creación del mensaje");
+                alert("Error en la creación del Contacto");
             }
         })
         .catch(error => {
