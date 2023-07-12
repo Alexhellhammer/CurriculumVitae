@@ -10,7 +10,7 @@ function saveCont() {
     let cont = {
         Nombres: nameContact,
         telefono: telefonoContact,
-        email: emailContact,
+        Email: emailContact,
         tema: temaContact,
         mensaje: mensajeContact,
     }
